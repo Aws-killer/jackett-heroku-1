@@ -19,7 +19,7 @@ XDG_CONFIG_HOME="/config"
 
 RUN \
  echo "**** install packages ****" && \
-  apt install nuget msbuild dotnet-sdk-6.0 && \
+ apt install nuget msbuild dotnet-sdk-6.0 && \
  apt-get update && \
  apt-get install -y \
 	jq \
